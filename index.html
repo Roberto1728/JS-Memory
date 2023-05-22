@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+  <section class="timer">
+    <p>
+      <span class="timer__minuti">00</span>
+      <span class="timer__secondi">00</span>
+    </p>
+  </section>
+  
+  <section class="board">
+
+    <div class="carta" data-forma="quadrato">
+      <img class="fronte" src="images/quadrato.svg" alt="Quadrato">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+    
+    <div class="carta" data-forma="quadrato">
+      <img class="fronte" src="images/quadrato.svg" alt="Quadrato">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="triangolo">
+      <img class="fronte" src="images/triangolo.svg" alt="Triangolo">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="triangolo">
+      <img class="fronte" src="images/triangolo.svg" alt="Triangolo">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="cerchio">
+      <img class="fronte" src="images/cerchio.svg" alt="Cerchio">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="cerchio">
+      <img class="fronte" src="images/cerchio.svg" alt="Cerchio">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="stella">
+      <img class="fronte" src="images/stella.svg" alt="Stella">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="stella">
+      <img class="fronte" src="images/stella.svg" alt="Stella">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="x">
+      <img class="fronte" src="images/x.svg" alt="X">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="x">
+      <img class="fronte" src="images/x.svg" alt="X">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="v">
+      <img class="fronte" src="images/v.svg" alt="V">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+
+    <div class="carta" data-forma="v">
+      <img class="fronte" src="images/v.svg" alt="V">
+      <img class="retro" src="images/retro-carta.svg" alt="Carta Memory">
+    </div>
+      
+  </section>
+
+  <!-- <section class="classifica">
+    <button> Mostra classifica </button>
+    <div class="classifica__container"></div>
+  </section> -->
+
+  
+  <modal hidden>
+    <p>Congratulazioni! Hai vinto! </p>
+    <button class="giocaDiNuovo"> Gioca di nuovo</button>
+  </modal>
+
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
